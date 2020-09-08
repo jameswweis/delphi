@@ -39,7 +39,7 @@ firebase deploy
 For more documentation, see the [Nuxt.js docs](https://nuxtjs.org). 
 
 ## Demonstration
-The easiest way of quickly exploring the DELPHI models is via the [demonstration Jupyter notebook](notebooks/delphi_example_demo.ipynb). This notebook, which is demonstrated using the example dataset and models uploaded, shows the performance of the DELPHI models in predicting the impact of publicatons over three different years post-publication (i.e. using two years post-publication data to calculate an early-warning signal for years three to five). 
+The easiest way of quickly exploring the DELPHI models is via the [demonstration Jupyter notebook](notebooks/delphi_example_demo.ipynb). This notebook, which is demonstrated using the example dataset and models uploaded, can be run in a few minutes using the provided models, and shows the performance of the DELPHI models in predicting the impact of publicatons over three different years post-publication (i.e. using two years post-publication data to calculate an early-warning signal for years three to five). 
 
 The result of correctly compiling and running the data visualization software should provide a served application resembling [this screenshot](SSEscreenshot.png). Of course, the specifics will vary depending on whether additional data is provided by the user for visualization.
 
