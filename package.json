@@ -1,0 +1,46 @@
+{
+  "name": "scaling-science-explore",
+  "version": "1.0.0",
+  "description": "Visual exploration of Scaling Science analytics",
+  "author": "Jc Din <ozknightwalker62@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:fix": "eslint --ext .js,.vue --ignore-path .gitignore . --fix"
+  },
+  "dependencies": {
+    "@creativebulma/bulma-tooltip": "^1.2.0",
+    "@gouch/to-title-case": "^2.2.1",
+    "@nuxtjs/bulma": "^1.2.1",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "@trevoreyre/autocomplete-vue": "^2.1.0",
+    "algoliasearch": "^4.0.3",
+    "axios": "^0.19.2",
+    "d3": "^5.15.0",
+    "firebase": "^7.6.1",
+    "nuxt": "^2.0.0",
+    "vega": "^5.9.1",
+    "vega-embed": "^6.2.1",
+    "vega-lite": "^4.0.2",
+    "vue-instantsearch": "^2.7.0",
+    "vue-mq": "^1.0.1",
+    "vue-slide-bar": "^1.2.0",
+    "vue-tour": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.1.2",
+    "prettier": "^1.19.1"
+  }
+}

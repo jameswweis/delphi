@@ -1,0 +1,18 @@
+version: "3"
+services:
+    
+    scipy-notebook:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        restart: always
+        ports:
+            - "1234:8888"
+        environment:
+            - TZ=America/New_York
+        hostname: $HOSTNAME.$DNSDOMAINNAME
+        user: root  
+        volumes:
+            - ./notebooks:/home/jovyan/work:Z
+            - ./data:/tmp/data:Z
+        container_name: ${DBNAME}_scipy-notebook

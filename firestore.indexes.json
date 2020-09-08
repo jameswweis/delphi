@@ -1,0 +1,173 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "papers-test",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "hIndex_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-test",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "citations_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-test",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "timeScaledPageRank_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-test",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title_keyword",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "hIndex_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-test",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title_keyword",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "citations_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-test",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title_keyword",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "timeScaledPageRank_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-prod",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "hIndex_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-prod",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "citations_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-prod",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "timeScaledPageRank_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-prod",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title_keyword",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "hIndex_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-prod",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title_keyword",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "citations_5",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "papers-prod",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "title_keyword",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "timeScaledPageRank_5",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -1,0 +1,75 @@
+{
+    "maxYear": 5,
+    "fields": [
+        {
+            "name": "citations",
+            "display": "Citations",
+            "description": "Number of times an article was cited in other articles present in the dataset."
+        },
+        {
+            "name": "timescaledpagerank",
+            "display": "Impact",
+            "description": "Time-rescaled node centrality calculated over the citation network."
+        },
+        {
+            "name": "hindex",
+            "display": "h-index",
+            "description": "Mean of the maximum values of h such that the given authors have published h papers that have each been cited at least h times."
+        },
+        {
+            "name": "adopters",
+            "display": "Early Adopters",
+            "description": "Number of the unique citing authors in the current year."
+        },
+        {
+            "name": "citationsperpaper",
+            "display": "Citations-Per-Paper",
+            "description": "Mean number of citations-per-paper of the authors."
+        },
+        {
+            "name": "citationsperyear",
+            "display": "Citations-Per-Year",
+            "description": "Mean number of citations per year of the authors."
+        },
+        {
+            "name": "totalcitations",
+            "display": "Total Citations",
+            "description": "Mean of the total citation count of the authors."
+        },
+        {
+            "name": "totalpapers",
+            "display": "Total Papers",
+            "description": "Mean of the total paper count of the authors."
+        },
+        {
+            "name": "authorage",
+            "display": "Author Age",
+            "description": "Mean number of years since the first publication in the dataset for the authors."
+        },
+        {
+            "name": "recentcoauthors",
+            "display": "Recent Coauthors",
+            "description": "Mean number of coauthors of each author in the current and antecedent years."
+        },
+        {
+            "name": "venuecitatiosnperpapermean",
+            "display": "Mean Journal Citations",
+            "description": "Mean number of citations per paper for journals published in by the authors."
+        },
+        {
+            "name": "venuehindexmean",
+            "display": "Mean Journal h-Index",
+            "description": "Mean h-Index for journals published in by the authors."
+        },
+        {
+            "name": "totalvenues",
+            "display": "Total Journals",
+            "description": "Total number of journals published in by the authors."
+        },
+        {
+            "name": "pagerank",
+            "display": "Coauthor PageRank",
+            "description": "Mean PageRank score calculated on the unweighted coauthorship network."
+        }
+    ]
+}
