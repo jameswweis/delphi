@@ -20,7 +20,7 @@ You will need the sample data and models, which are too large to be hosted here.
 
 If you want to run on your own data, you should first download and structure a database as described in the manuscript. Datasets can be downloaded from [Lens.org](https://www.lens.org) and structured in your preferred database (for example, using [Neo4j](https://neo4j.com), with instructions available [here](https://neo4j.com/neo4j-graph-database/)), and then the feature matrix can be calculated and extracted using your database's query language (e.g. [Cypher](https://neo4j.com/developer/cypher/) for Neo4j). 
 
-Then, to build the visualization application, first ensure your data file is correctly referenced, then install the dependencies and serve:
+Then, to build the visualization application, first ensure your data can be accessed correctly (e.g. using the credentials in `firebase.js`), then install the dependencies and serve:
 ```
 npm run install
 npm run dev
