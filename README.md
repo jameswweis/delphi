@@ -6,12 +6,12 @@ In a world of rapidly expanding science and limited resources, the identificatio
 In this repository we are providing requirements, installation guides, and instructions for both (a) demonstrating the DELPHI approach on a sample set of data via an Jupyter Notebook provided in a Docker container, and (b) a web application for the visualization of the DELPHI results over time, and organized/sliced by various features. We've attempted to make this introduction parallel to the provided details in the manuscript, and will be adding to, and further organizing, this repository in the next few months. 
 
 ## System Requirements
-We've provided a Docker-based installation to avoid operating system and/or dependency concerns. This requires a recent version of Docker (documentation available [here](https://www.docker.com/get-started)). The provided code will download the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks), and then automatically install other necessary dependencies (which are listed, along with version number, in `requirements.txt`). 
+We've provided a Docker-based installation to avoid operating system and/or dependency concerns. This requires a recent version of Docker (documentation available [here](https://www.docker.com/get-started)). The provided code will download the [Jupyter Notebook Scientific Python Stack](https://github.com/jupyter/docker-stacks), and then automatically install other necessary dependencies (which are listed, along with version number, in `requirements.txt`).
 
 The visualization application is provided pre-configured to be deployed on [Google Firebase](https://firebase.google.com) (documentation [here](https://firebase.google.com/docs/web/setup)) using the [npm](https://www.npmjs.com) (installation instructions [here](https://www.npmjs.com/get-npm)) package manager for [Node.js](https://nodejs.org/en/) (documentation [here](https://nodejs.org/en/docs/)). The dependencies necessary, along with the corresponding version number, are listed in `package.json`, and the metrics to be analyzed, along with their corresponding description, can be found in `config.json`. 
 
 ## Installation and Usage Guide
-To explore the DELPHI demonstration in the provided Jupyter Notebook (documentation [here](https://jupyter.org)), ensure all environmental variables are configured appropriately (Docker will warn you if not) and then build and launch the Docker container:
+To explore the DELPHI demonstration in the provided Jupyter Notebook (documentation [here](https://jupyter.org)), ensure all environmental variables are configured appropriately (Docker will warn you if not) and then build and launch the Docker container (which should only take a few minutes on a normal computer):
 ```
 docker-compose build
 docker-compose up
@@ -36,7 +36,7 @@ Then, to deploy to Firebase:
 npm run generate
 firebase deploy
 ```
-For more documentation, see the [Nuxt.js docs](https://nuxtjs.org).
+For more documentation, see the [Nuxt.js docs](https://nuxtjs.org). 
 
 ## Demonstration
 The easiest way of quickly exploring the DELPHI models is via the [demonstration Jupyter notebook](notebooks/delphi_example_demo.ipynb). This notebook, which is demonstrated using the example dataset and models uploaded, shows the performance of the DELPHI models in predicting the impact of publicatons over three different years post-publication (i.e. using two years post-publication data to calculate an early-warning signal for years three to five). 
