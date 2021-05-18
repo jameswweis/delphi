@@ -16,7 +16,7 @@ To explore the DELPHI demonstration in the provided Jupyter Notebook (documentat
 docker-compose build
 docker-compose up
 ```
-You will need the sample data and models, which are too large to be hosted here. The smaller sample data is uploaded [here](https://www.dropbox.com/t/ypuH7DKbJ5TXc0IO), and which needs to be placed in the `data` folder. Similarly, you will need the trained models and parameters, which are uploaded [here](https://www.dropbox.com/t/lq6fqR1Yzxtpajh4). Both of these files can be extracted in the standard way (e.g. `tar xvfz demo_models.tar.gz`). 
+You will need the sample data and models, which are too large to be hosted here. The smaller sample data is uploaded [here](https://www.dropbox.com/t/ypuH7DKbJ5TXc0IO), and which needs to be placed in the `data` folder. Similarly, you will need the trained models and parameters, which are uploaded [here](https://www.dropbox.com/t/lq6fqR1Yzxtpajh4). Both of these files can be extracted in the standard way (e.g. `tar xvfz demo_models.tar.gz`)--and please reach out directly if you are unable to access the links. 
 
 If you want to run on your own data, you should first download and structure a database as described in the manuscript. Datasets can be downloaded from [Lens.org](https://www.lens.org) and structured in your preferred database (for example, using [Neo4j](https://neo4j.com), with instructions available [here](https://neo4j.com/neo4j-graph-database/)), and then the feature matrix can be calculated and extracted using your database's query language (e.g. [Cypher](https://neo4j.com/developer/cypher/) for Neo4j). 
 
@@ -45,5 +45,5 @@ The result of correctly compiling and running the data visualization software sh
 
 ## Citation
 If you use this code for your own research, please cite this paper:
-```To be provided after publication.```
+```Weis, J.W., Jacobson, J.M. Learning on knowledge graph dynamics provides an early warning of impactful research. Nat Biotechnol (2021). https://doi.org/10.1038/s41587-021-00907-6```
 
