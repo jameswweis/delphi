@@ -16,7 +16,7 @@ To explore the DELPHI demonstration in the provided Jupyter Notebook (documentat
 docker-compose build
 docker-compose up
 ```
-You will need the sample data and models, which are too large to be hosted here. The smaller sample data is uploaded [here](https://www.dropbox.com/t/ypuH7DKbJ5TXc0IO), and which needs to be placed in the `data` folder. Similarly, you will need the trained models and parameters, which are uploaded [here](https://www.dropbox.com/t/lq6fqR1Yzxtpajh4). Both of these files can be extracted in the standard way (e.g. `tar xvfz demo_models.tar.gz`) (please reach out directly for quick help, if you received an expired link notice). 
+You will need the sample data and models, which are too large to be hosted here. A small sample dataset is uploaded [here](https://www.dropbox.com/t/EUCBcz6dGrY5c7X1), and which needs to be placed in the `data` folder. Similarly, you will need the trained models and parameters, which are uploaded [here](https://www.dropbox.com/t/B0NzYvQlb6ppJX3c). Both of these files can be extracted in the standard way (e.g. `tar xvfz demo_models.tar.gz`) (please reach out directly for help if you encounter any problems). 
 
 If you want to run on your own data, you should first download and structure a database as described in the manuscript. Datasets can be downloaded from [Lens.org](https://www.lens.org) and structured in your preferred database (for example, using [Neo4j](https://neo4j.com), with instructions available [here](https://neo4j.com/neo4j-graph-database/)), and then the feature matrix can be calculated and extracted using your database's query language (e.g. [Cypher](https://neo4j.com/developer/cypher/) for Neo4j). 
 
